@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Ziraat Bankasi Hesaplama Araclari"  >
+    <parameter name="browser"  value="Chrome"/>
+    <test name="Cucumber" >
+        <classes>
+            <class name="tr.com.ziraatbank.runner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
